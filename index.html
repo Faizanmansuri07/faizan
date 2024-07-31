@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faizan Mansuri</title>
+    <link rel="shortcut icon" href="images/profile-pic.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>    
+<body>
+
+    <div id="preloader">
+        <div class="loader">
+            <div class="loader-inner"></div>
+        </div>
+        <div class="loader-text">Loading...</div>
+    </div>
+
+
+        <div class="navbar">
+            <p id="header">Faizan.</p>
+            <ul class="items">
+                <a href="#home"><li>Home</li></a>
+                <a href="#about"><li>About</li></a>
+                <a href="#services"><li>Services</li></a>
+               <a href="#projects"><li>Projects</li></a>
+                <a href="#contact"><li>Contact Me</li></a>     
+            </ul>
+            
+            
+                <a href="images/Faizan's Portfolio.pdf" download="faizan's Resume"><button class="CV">Download CV</button></a>
+              
+                <div class="icon">
+                    <i class="fa-regular fa-moon" id="theme" onclick="changeTheme();"></i>
+                    <i class="fa-solid fa-bars" id="open" onclick="openNav('open');"></i>
+                </div>
+        </div>
+    <ul class="items-for-mobile">
+        <div class="inner">
+            <p id="header">Faizan.</p>
+            <ion-icon name="close-outline" id="close" onclick="openNav('close');"></ion-icon>
+
+        </div>
+        <a href="#home"><li>Home</li></a>
+        <a href="#about"><li>About</li></a>
+        <a href="#services"><li>Services</li></a>
+       <a href="#projects"><li>Projects</li></a>
+        <a href="#contact"><li>Contact Me</li></a>
+        <a href="images/Faizan's Portfolio.pdf" download="faizan's Resume"><button class="CV">Download CV</button></a>
+        
+      
+    </ul>
+        <div class="main" id="home">
+            <div class="left" data-aos="fade">
+                <p id="name">Hi, I'm</p>
+                <p id="name"> <span id="element">Faizan Mansuri.</span></p>
+                <p id="discription">I'm a Web developer</p>
+                <p id="about-me">
+                    I am a skilled front-end developer with<br> a passion for creating visually appealing<br> and user-friendly websites. 
+                </p>
+            
+                <div class="buttons">
+                    <a href="https://www.linkedin.com/in/faizan-mansuri-7815b92b8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><button class="button">Linkdin</button></a>
+                    <a href="https://www.github.com//Faizanmansuri07"><button class="button">Github</button></a>
+                </div> 
+            </div>
+            <div class="right">
+                    <div class="border-radius" data-aos="fade-up">
+                        <img src="images/my-image.png" alt="">
+                    </div>
+            </div>
+        </div>
+     
+        <!-- ------------------------
+        about
+        --------------------------- -->
+        <p class="about-header" id="about">About</p>
+            <section class="about">
+                <div class="about-main">
+                    <div class="about-left" data-aos="fade">
+                        <img src="images/about-img.png" alt="">
+                    </div>
+                    <div class="about-right" data-aos="fade">
+                        <p id="header">Faizan Mansuri.</p>
+                       <p id="disc">
+                        My name is faizan mansuri. Currently i am doing BCA 2 <sup>nd</sup> year in smt B.K.Mehta IT center Palanpur.
+                        <br> My Interest Is in  building cool websites and apps 
+                       </p> 
+                       <div class="skill-container">
+                        <div class="skill">
+                            <div class="skill-name">HTML</div>
+                            <div class="skill-bar">
+                                <div class="skill-percentage" data-percentage="90">0%</div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-name">CSS</div>
+                            <div class="skill-bar">
+                                <div class="skill-percentage" data-percentage="80">0%</div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-name">JavaScript</div>
+                            <div class="skill-bar">
+                                <div class="skill-percentage" data-percentage="75">0%</div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    </div>
+                </div>
+            </section>
+            <p class="about-header" id="services">Service</p>
+            <section class="services" id="service">
+                <div class="services-main">
+                    <div class="service" id="sr1" data-aos="zoom-in">
+                        <i class="fa-solid fa-code"></i>
+                        <p id="service-name">Web Development</p>
+                        <p id="service-disc">Creating Any Type of Website with Frontend, Backend and also API</p>
+                        <div class="overlay"></div>
+                    </div>
+
+                    <div class="service" id="sr2" data-aos="zoom-in">
+                        <i class="fa-solid fa-mobile"></i>
+                        <p id="service-name">Web Application</p>
+                        <p id="service-disc">Create Frontend and Backend Website, is work as Application
+
+                        </p>
+                    </div>
+
+                    <div class="service" id="sr3" data-aos="zoom-in">
+                        <i class="fa-solid fa-earth-americas"></i>
+                        <p id="service-name">Web Designing</p>
+                        <p id="service-disc">Creating any kind of Design for Wen Application
+
+                        </p>
+                    </div>
+
+                    <div class="service" id="sr4" data-aos="zoom-in"> 
+                        <i class="fa-solid fa-database"></i>
+                        <p id="service-name">API</p>
+                        <p id="service-disc">API Stands for Application Programming Interface. </p>
+                    </div>
+
+                </div>
+            </section>
+
+            <p class="about-header" id="projects">Projects</p>
+            <div class="gallery">
+                <div class="container" data-aos="fade-up">
+                    <img src="images/portfolio.png" alt="Dummy Image" class="image">
+                    <div class="overlay">
+                        <p id="projname" class="option">Portfolio</p>
+                        <a href="https://faizanmansuri07.github.io/faizan-portfolio/" class="option">
+                                <i class="fa-brands fa-chrome"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="container" data-aos="fade-up">
+                    <img src="images/Glowing.png" alt="Dummy Image" class="image">
+                    <div class="overlay">
+                        <p id="projname" class="option">Ecommerce</p>
+                        <a href="https://faizanmansuri07.github.io/Glowing/" class="option">
+                                <i class="fa-brands fa-chrome"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="container" data-aos="fade-up">
+                    <img src="images/crypto.png" alt="Dummy Image" class="image">
+                    <div class="overlay">
+                        <p id="projname" class="option">Crypto App</p>
+                        <a href=" https://faizanmansuri07.github.io/crypto/" class="option">
+                                <i class="fa-brands fa-chrome"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="container" data-aos="fade-up">
+                        <img src="images/imageSearch-engine.png" alt="Dummy Image" class="image">
+                        <div class="overlay">
+                                <p id="projname" class="option">Image Gallery</p>
+                            <a href="https://faizanmansuri07.github.io/image-search-engine/" class="option">
+                                <i class="fa-brands fa-chrome"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="container" data-aos="fade-up">
+                        <img src="images/web-service.png" alt="Dummy Image" class="image">
+                        <div class="overlay">
+                                <p id="projname" class="option">Web Service</p>
+                            <a href=" https://faizanmansuri07.github.io/web-service/" class="option">
+                                <i class="fa-brands fa-chrome"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="container" data-aos="fade-up">
+                        <img src="images/insta-downloader.png" alt="Dummy Image" class="image">
+                        <div class="overlay">
+                                <p id="projname" class="option">Story Downloader</p>
+                            <a href="https://faizanmansuri07.github.io/instagram-downloader/" class="option">
+                                <i class="fa-brands fa-chrome"></i>
+                            </a>
+                        </div>
+                    </div>
+            </div>
+
+<!-- ------------------------
+Contact
+------------------------ -->
+
+            <p class="about-header" id="contact">Contact Me</p>
+
+            <section class="contact-me">
+                <div class="contact">
+                    <div class="map-box" data-aos="fade">
+                        <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14576.159452382624!2d72.39187989999998!3d24.029659399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395cf26aafc0e7c9%3A0x970ebc89fdac2103!2sChhapi%2C%20Gujarat%20385210!5e0!3m2!1sen!2sin!4v1717578130599!5m2!1sen!2sin" width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">  
+                      ></iframe>   
+                    </div>
+                    <div class="form">
+                        <form action="" data-aos="fade-up">
+                           <div>
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" placeholder="Enter Name">
+                           </div>
+                           <div>
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="email" placeholder="Enter Email">
+                           </div>
+                           <textarea name="" id="">
+                            Message
+                           </textarea>
+                           
+                        </form>
+                        <div class="buttons">
+                            <button class="button">Submit</button>
+                           </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- ------------------------
+            footer
+            ------------------------ -->
+            <section class="footer">
+                <div class="foter-main">
+                    <div class="address" data-aos="fade-up">
+                        <p id="header">Faizan.</p>
+                        <p id="add">Aman park society, Chhapi<br>Gujarat, India.</p>
+                        <p id="phone">+91 87805 75765</p>
+                        <p id="email">faizanmansuri0635@gmail.com</p>
+                        <div class="network">
+                            <a href="https://www.instagram.com/iamfaizan_7_?igsh=YTRidGhnOGlhMjJ0"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.github.com//Faizanmansuri07"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/faizan-mansuri-7815b92b8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+
+                        </div>
+                    </div>
+                    <div class="useful-links" data-aos="fade-up">
+                        <p id="foot-head">UseFul Links</p>
+                        <div>
+                             <ion-icon name="chevron-forward-outline"></ion-icon>
+                               <a href="#home">Home</a>
+                      </div>     
+                      <div>
+                              <ion-icon name="chevron-forward-outline"></ion-icon>
+                              <a href="#about">About</a>
+                      </div>      
+                      <div>
+                              <ion-icon name="chevron-forward-outline"></ion-icon>
+                              <a href="#services">Services</a>
+                       </div>       
+                       <div>
+                              <ion-icon name="chevron-forward-outline"></ion-icon>
+                              <a href="#projects">Projects</a>
+                       </div>      
+                       <div>
+                              <ion-icon name="chevron-forward-outline"></ion-icon>
+                              <a href="#contact">Contact</a>
+                            </div>      
+                    </div>
+                    <div class="Our-service" data-aos="fade-up">
+                        
+                             <p id="foot-head">Our Services</p>
+                             <div>
+                                 <ion-icon name="chevron-forward-outline"></ion-icon>
+                                 <a href="#sr1">Web Development</a>
+                            </div>   
+                            <div>
+                                 <ion-icon name="chevron-forward-outline"></ion-icon>
+                                 <a href="#sr2">Web Application</a>
+                            </div>    
+                            <div>
+                                 <ion-icon name="chevron-forward-outline"></ion-icon>
+                                 <a href="#sr3">Web Designing</a>
+                            </div>
+                            <div>
+                                 <ion-icon name="chevron-forward-outline"></ion-icon>
+                                 <a href="#sr3">API</a>
+                                </div>    
+                    </div>
+                   
+                    </div>
+                </div>
+            </section>
+
+            <div class="authorized">
+                <p id="copyright">
+                    <i class="fa-regular fa-copyright"></i>
+                    Copyright  <span>Faizan Mansuri</span>
+                </p>
+                <p id="design">
+                    Design By <span>Faizan Mansuri</span>
+                    
+                </p>
+            </div>
+
+        <script src="assets/script/script.js"></script>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+        <script>
+            var typed = new Typed('#element', {
+              strings: [' Web Developer.', ' Faizan Mansuri.'],
+              typeSpeed: 50,
+            });
+          </script>
+         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+         <script>
+           AOS.init({
+            duration : 500,
+            offset : 150
+           });
+         </script>
+              <script>
+                function changeTheme() {
+                    let currMode = document.querySelector("#theme");
+                    let body = document.querySelector("body");
+        
+                    if (currMode.className === "fa-regular fa-moon") {
+                        currMode.className = "fa-regular fa-sun";
+                        body.classList.add("dark");
+                        localStorage.setItem("theme", "dark");
+                    } else {
+                        currMode.className = "fa-regular fa-moon";
+                        body.classList.remove("dark");
+                        localStorage.setItem("theme", "light");
+                    }
+                }
+        
+                function applySavedTheme() {
+                    let savedTheme = localStorage.getItem("theme");
+                    let currMode = document.querySelector("#theme");
+                    let body = document.querySelector("body");
+        
+                    if (savedTheme === "dark") {
+                        currMode.className = "fa-regular fa-sun";
+                        body.classList.add("dark");
+                    } else {
+                        currMode.className = "fa-regular fa-moon";
+                        body.classList.remove("dark");
+                    }
+                }
+        
+                window.onload = applySavedTheme;
+            </script>
+</body>
+</html>
